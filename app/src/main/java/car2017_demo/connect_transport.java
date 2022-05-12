@@ -53,7 +53,7 @@ public class connect_transport {
         try {
             this.reHandler = reHandler;
             Firstdestroy = false;
-            int port = 60000;
+            int port = 60000;//DD
             socket = new Socket("192.168.1.104", port);
             bInputStream = new DataInputStream(socket.getInputStream());
             bOutputStream = new DataOutputStream(socket.getOutputStream());

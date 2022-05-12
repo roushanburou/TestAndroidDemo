@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/8_Car2019_Demo_v1.7.5.iml" filepath="$PROJECT_DIR$/8_Car2019_Demo_v1.7.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/8_Car2019_Demo_v1.7.5.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/8_Car2019_Demo_v1.7.5.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/8_Car2019_Demo_v1.7.5.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/8_Car2019_Demo_v1.7.5.library.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/rvdata"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="空"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|right"
+            android:text="@string/coded_disc" />
+
+        <EditText
+            android:id="@+id/coded_disc_data"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:gravity="center_horizontal"
+            android:inputType="number"
+
+            android:text="@string/mp_data" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/line_disc"
+             />
+
+        <EditText
+            android:id="@+id/angle_data"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"
+            android:gravity="center_horizontal"
+            android:inputType="number"
+            android:text="@string/line_data" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|right"
+            android:text="@string/angle_disc"/>
+        <EditText
+            android:id="@+id/speed_data"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"
+            android:gravity="center_horizontal"
+            android:inputType="number"
+            android:text="@string/sp_data" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:orientation="vertical">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:gravity="center">
+         <ImageButton
+             android:id="@+id/up_button"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:background="@drawable/upbutton_img" />
+
+     </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/left_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/below_button"
+                android:layout_toLeftOf="@+id/up_button"
+                android:background="@drawable/leftbutton_img" />
+
+            <ImageButton
+                android:id="@+id/stop_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/up_button"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5sp"
+                android:background="@drawable/stopbutton_img" />
+
+            <ImageButton
+                android:id="@+id/right_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/stop_button"
+                android:layout_toRightOf="@+id/up_button"
+                android:background="@drawable/rightbutton_img" />
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_weight="1">
+           <ImageButton
+               android:id="@+id/below_button"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/stop_button"
+               android:layout_centerHorizontal="true"
+               android:background="@drawable/belowbutton_img" />
+       </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

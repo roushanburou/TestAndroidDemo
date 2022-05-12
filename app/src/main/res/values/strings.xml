@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Car2019</string>
+    <string name="deviceid">设备ID</string>
+    <string name="loginname">用户名</string>
+
+    <string name="sp_data">90</string>
+    <string name="mp_data">20</string>
+    <string name="line_data">50</string>
+    <string name="line_disc">循迹速度:</string>
+    <string name="coded_disc">码盘:</string>
+    <string name="angle_disc">转弯速度:</string>
+    <string name="main_status">主车状态</string>
+    <string name="follow_status">从车状态</string>
+    <string name="main_control">主车控制</string>
+    <string name="follow_control">从车控制</string>
+    <string name="angle_control">角度控制</string>
+    <string name="clear_coded_disc">清除码盘</string>
+
+    <string name="digital_title">第几行数据:</string>
+    <string name="voicetext">播报的文本:</string>
+    <string name="voiceText">百科荣创（北京）科技发展有限公司</string>
+
+    <string name="use_socket">使用socket</string>
+    <string name="full_auto">全自动</string>
+
+    <!--设备id和用户名-->
+    <string name="devicetext">bkrc001</string>
+    <string name="logintext">bkrc</string>
+    <string name="loginpsd">密码不超过16个字符</string>
+    <!--左侧导航栏-->
+    <!--ZigBee-->
+
+</resources>
